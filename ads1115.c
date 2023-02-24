@@ -1,6 +1,6 @@
 #include "ADS1115.h"
 	
-	
+	/***Author - Andrii Androsovych **/
 	
 	//declare global variable
 	
