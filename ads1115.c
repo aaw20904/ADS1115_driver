@@ -77,7 +77,7 @@
           return -1;
         return (toAdc & (1 << 15)) ?  1 : 0;
   }
-      //read convertion data from the conversion register to a `res` variable
+      //read convertion data from the conversion register into a `res` 16-bit variable
 char ADS1115_ReadResult(uint8_t adr,  short *res){
   static uint16_t read = 0; 
   if (ADS1115_Read(adr,ADS1115_CONVERSION_REG , &read) != HAL_OK){
